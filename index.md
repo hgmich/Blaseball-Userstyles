@@ -20,7 +20,7 @@ You may need to lower the zoom on your browser if you have a smaller screen.
 
 ----
 
-A production of Cepheus on the [Blaseball Discord](//discord.gg/3uFgJhu).
+A production of Cepheus (@ceph3us#0451) on the [Blaseball Discord](//discord.gg/3uFgJhu).
 
 Go Moist Talkers!
 
