@@ -1,14 +1,14 @@
 /* ==UserStyle==
 @name        BIG SCREEN Blaseball
 @namespace   holmesmr.github
-@version     0.0.4
+@version     0.0.5
 @author       cepheus (https://github.com/holmesmr)
 @homepageURL  http://holmesmr.github.io/Blaseball-Userstyles/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
 ==/UserStyle== */
 
 @-moz-document domain("blaseball.com") {
-    .DailySchedule-Countdown + ul {
+    .Main-Body > div > div > ul {
         display: flex;
         flex-wrap: wrap;
     }
