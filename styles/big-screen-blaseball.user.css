@@ -1,55 +1,58 @@
 /* ==UserStyle==
 @name        BIG SCREEN Blaseball
 @namespace   holmesmr.github
-@version     0.0.1
+@version     0.0.2
 @author       cepheus (https://github.com/holmesmr)
 @homepageURL  http://holmesmr.github.io/Blaseball-Userstyles/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
 ==/UserStyle== */
 
 @-moz-document domain("blaseball.com") {
-.DailySchedule-Countdown + ul {
-    display: flex;
-    flex-wrap: wrap;
-}
-.GameWidget {
-    flex: 1 0 20%;
-    padding: 5px;
-    margin-bottom: 0;
-}
-.GameWidget-Full-Live,
-.GameWidget-Full-Upcoming {
-    display: block;
-}
-.GameWidget-ScoreBacking {
-    padding: 0;
-}
-.GameWidget-ScoreLine {
-    grid-gap: 0;
-    gap: 0;
-}
-.Main {
-    padding: 0;
-}
-.GameWidget-Log-Content {
-    min-height: 95px;
-    overflow-y: auto;
-}
-.GameWidget-Display-Visual {
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-}
-.GameWidget-Log {
-    border-top-left-radius: 0;
-    border-top-right-radius: 0;
-}
-.GameWidget-Status {
-    border-bottom-left-radius: 0;
-    border-top-right-radius: 0;
-    border-bottom-right-radius: 0;
-}
-.WeatherIcon {
-    border-top-left-radius: 0;
-    border-bottom-left-radius: 0;
-}
+    .DailySchedule-Countdown + ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .GameWidget {
+        flex: 1 0 20%;
+        padding: 5px;
+        margin-bottom: 0;
+    }
+    .GameWidget-Full-Live,
+    .GameWidget-Full-Upcoming {
+        display: block;
+    }
+    .GameWidget-ScoreBacking {
+        padding: 0;
+    }
+    .GameWidget-ScoreLine {
+        grid-gap: 0;
+        gap: 0;
+    }
+    .Main {
+        padding: 0;
+    }
+    .GameWidget-Log-Content {
+        min-height: 95px;
+        overflow-y: auto;
+    }
+    .GameWidget-Display-Visual {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .GameWidget-Log {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
+    .GameWidget-Full-Live .GameWidget-Status {
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .GameWidget-Full-Upcoming .GameWidget-Status {
+        border-bottom-left-radius: 0;
+    }
+    .GameWidget-StatusBar .WeatherIcon {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
 }
