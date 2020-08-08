@@ -1,20 +1,22 @@
 /* ==UserStyle==
 @name        BIG SCREEN Blaseball
 @namespace   holmesmr.github
-@version     0.0.7
+@version     0.0.8
 @author       cepheus (https://github.com/holmesmr)
 @homepageURL  http://holmesmr.github.io/Blaseball-Userstyles/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
 ==/UserStyle== */
 
 @-moz-document domain("blaseball.com") {
-    .Main-Body > div > div > ul {
+    .DailySchedule-Countdown + ul,
+    .DailySchedule-Countdown + ul > ul {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
     .GameWidget {
-        flex: 1 0 20%;
+        flex: 0 1 20%;
+        min-width: 350px;
         padding: 5px;
         margin-bottom: 0;
     }
@@ -36,13 +38,15 @@
         min-height: 95px;
         overflow-y: auto;
     }
-    .GameWidget-Display-Visual, .GameWidget-Upcoming-Info {
+    .GameWidget-Display-Visual,
+    .GameWidget-Upcoming-Info {
         border-top-left-radius: 0;
         border-top-right-radius: 0;
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
     }
-    .GameWidget-Log, .GameWidget-Upcoming-Bets {
+    .GameWidget-Log,
+    .GameWidget-Upcoming-Bets {
         border-top-left-radius: 0;
         border-top-right-radius: 0;
     }
@@ -62,10 +66,12 @@
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
     }
-    .Offseason-Body, .Standings-Subleague-Container {
+    .Offseason-Body,
+    .Standings-Subleague-Container {
         padding: 0 calc(50% - 512px);
     }
-    .Standings-Team-Emoji {
+    .Standings-Team-Emoji,
+    .GameWidget-ScoreTeamColorBar {
         color: black;
     }
 }

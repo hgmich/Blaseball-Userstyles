@@ -4,6 +4,14 @@ Updates to included styles will be listed here.
 
 ## BIG SCREEN Blaseball
 
+### 0.0.8 (2020/08/08)
+
+* Ensure Emoji fix is applied to the scoring screen too.
+
+* Fix score layout after postseason siesta changes.
+
+* Improve layout when fewer games are being played (i.e. postseason)
+
 ### 0.0.7 (2020/08/08)
 
 * Center the cards if they don't fill a row (speculative change
@@ -44,6 +52,10 @@ Updates to included styles will be listed here.
 
 
 ## Windows 10 Emoji fix
+
+### 0.0.2 (2020/08/08)
+
+* Ensure Emoji fix is applied to the scoring screen too.
 
 ### 0.0.1 (2020/08/08)
 

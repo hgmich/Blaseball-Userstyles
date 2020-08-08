@@ -8,7 +8,7 @@
 ==/UserStyle== */
 
 @-moz-document domain("blaseball.com") {
-    .Standings-Team-Emoji {
+    .Standings-Team-Emoji, .GameWidget-ScoreTeamColorBar {
         color: black;
     }
 }
