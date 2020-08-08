@@ -4,6 +4,11 @@ Updates to included styles will be listed here.
 
 ## BIG SCREEN Blaseball
 
+### 0.0.7 (2020/08/08)
+
+* Center the cards if they don't fill a row (speculative change
+  for postseason games)
+
 ### 0.0.6 (2020/08/08)
 
 * Add the standard gutter back into the elections and standings views,
