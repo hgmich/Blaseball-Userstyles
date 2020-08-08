@@ -1,8 +1,14 @@
 # Userstyle repository
 
-More styles may be added over time! 
+**All styles should be considered in beta.** More styles may be added over time!
 Please leave suggestions for new styles, or problems with existing styles,
 as a [GitHub issue](https://github.com/holmesmr/Blaseball-Userstyles/issues).
+
+**Note:** As Blaseball changes quite frequently, these styles might occasionally be
+broken by game updates (siestas). Check/file [GitHub issues](https://github.com/holmesmr/Blaseball-Userstyles/issues)
+if you encounter brokenness right after a siesta, and try checking the [changelog](changelog.html)
+to see if recent fixes were applied. Check out the [manual update procedure](#updates)
+to fix your styles afterwards.
 
 ## Instructions
 
@@ -11,6 +17,36 @@ as a [GitHub issue](https://github.com/holmesmr/Blaseball-Userstyles/issues).
 * Find the Userstyle you want below.
 
 * Click the Install Style link.
+
+## Updates
+
+Blaseball is a fast-moving game, and you'll need to update the styles sometimes after
+siestas. Styles will update automatically from time to time, but to manually update a style:
+
+* Look for the Stylus icon in your browser extension bar: ![Stylus button](images/index/stylus-ext-icon.png)
+
+* Click the button.
+
+* Click Manage on the popup.
+
+* In the sidebar in the Manage screen, click Check all styles for update.
+
+* Once checked, click Install all updates, if available.
+
+### Note for Chrome users
+
+Your Stylus extension icon may be in the new _Extensions_ menu. If you don't see the
+Stylus icon above:
+
+* Look for the Extensions puzzle piece in your toolbar: ![Chrome extension button](images/index/chrome-ext-menu.png)
+
+* Click the three vertical dots icon next to Stylus in the dropdown.
+
+* Choose 'Open style manager'.
+
+* In the sidebar in the Manage screen, click Check all styles for update.
+
+* Once checked, click Install all updates, if available.
 
 ## Styles
 
