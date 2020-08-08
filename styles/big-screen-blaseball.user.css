@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        BIG SCREEN Blaseball
 @namespace   holmesmr.github
-@version     0.0.9
+@version     0.0.10
 @author       cepheus (https://github.com/holmesmr)
 @homepageURL  http://holmesmr.github.io/Blaseball-Userstyles/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -39,11 +39,9 @@
         overflow-y: auto;
     }
     .GameWidget-Display-Visual,
-    .GameWidget-Upcoming-Info {
-        border-top-left-radius: 0;
-        border-top-right-radius: 0;
-        border-bottom-left-radius: 0;
-        border-bottom-right-radius: 0;
+    .GameWidget-Upcoming-Info,
+    .GameWidget-Outcome {
+        border-radius: 0;
     }
     .GameWidget-Log,
     .GameWidget-Upcoming-Bets {

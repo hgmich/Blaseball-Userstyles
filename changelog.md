@@ -4,6 +4,10 @@ Updates to included styles will be listed here.
 
 ## BIG SCREEN Blaseball
 
+### 0.0.10 (2020/08/08)
+
+* Actually add the fix from 0.0.9 into the stylesheet...
+
 ### 0.0.9 (2020/08/08)
 
 * Fix Game outcome box not being squared off.
