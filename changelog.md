@@ -4,6 +4,10 @@ Updates to included styles will be listed here.
 
 ## BIG SCREEN Blaseball
 
+### 0.0.9 (2020/08/08)
+
+* Fix Game outcome box not being squared off.
+
 ### 0.0.8 (2020/08/08)
 
 * Ensure Emoji fix is applied to the scoring screen too.
