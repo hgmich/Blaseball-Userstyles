@@ -73,14 +73,34 @@ by making them black (okay, the Spies is not really _more_ visible, but definite
 more fitting, at least!)
 
 This is already included in the [BIG SCREEN Blaseball](#big-screen-blaseball)
-style, it's only needed if you want to fix this issue without
-the BIG SCREEN experience.
+and [light mode](#blaseball-light-mode) styles, it's only needed if you want to fix
+this issue without the BIG SCREEN experience.
 
 There's a [changelog](changelog.html#windows-10-emoji-fix) for this style.
 
 ![Emoji fix screenshot](images/win10-emoji-fix.png)
 
 [Install Style](styles/win10-emoji-fix.user.css)
+
+
+### Blaseball light mode
+
+Just because the players live under the constant threat of the solar eclipse,
+doesn't mean you have to! A light mode for the few of us who want it. Fully compatible
+and tested with the [BIG SCREEN Blaseball](#big-screen-blaseball) style for
+big, light goodness.
+
+Includes the [Windows 10 Emoji fix](#windows-10-emoji-fix).
+
+There's a [changelog](changelog.html#blaseball-light-mode) for this style.
+
+![Standings screenshot in light mode](images/blaseball-light-mode/standings.png)
+
+![Live scores in light mode](images/blaseball-light-mode/live-scores.png)
+
+![Light mode combined with BIG SCREEN Blaseball](images/blaseball-light-mode/big-live-scores.png)
+
+[Install Style](styles/blaseball-light-mode.user.css)
 
 ----
 

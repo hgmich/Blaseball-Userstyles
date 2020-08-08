@@ -1,0 +1,211 @@
+/* ==UserStyle==
+@name        Blaseball Light Mode
+@namespace   holmesmr.github
+@version     0.0.1
+@author       cepheus (https://github.com/holmesmr)
+@homepageURL  http://holmesmr.github.io/Blaseball-Userstyles/
+@license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
+==/UserStyle== */
+
+@-moz-document domain("blaseball.com") {
+    body,
+    .Main,
+    .Main-Body,
+    .Main-Body-Intro {
+        background: #fff;
+        color: #000;
+    }
+    .Navigation,
+    .Navigation-Header,
+    .Navigation-Header-SubEra {
+        color: #000;
+        background: #fff;
+    }
+    .EventTicker-Display,
+    .EventTicker-Item,
+    .Navigation-CurrencyButton,
+    .Navigation-Button {
+        background: rgba(225, 225, 225, .64);
+        color: #000
+    }
+    .Navigation-Patreon-Inner,
+    .Navigation-Follow-Inner {
+        background: #e0e0e0;
+    }
+    .Navigation-Patreon-Icon,
+    .Navigation-Follow-Inner {
+        color: #555;
+    }
+    .Navigation-Patreon-Icon:hover,
+    .Navigation-Follow-Inner a:hover {
+        color: #000;
+    }
+    /* Hide errant backslash */
+    .Navigation-Patreon-Inner {
+        color: #e0e0e0;
+    }
+    /* Follow container chevron */
+    .Navigation-Follow-Triangle {
+        border-top-color: #e0e0e0;
+    }
+    .Navigation-CurrencyButton:hover,
+    .Navigation-Button:hover {
+        border-color: #000;
+        color: #000;
+    }
+    .Navigation-Button.Navigation-Button-Current {
+        color: #fff;
+        background: #000;
+    }
+    .Navigation-Bar-Menu {
+        color: #000;
+    }
+    .Navigation-Bar-Menu-Toggle {
+        background: #eee;
+    }
+    .Navigation-Bar-Menu-Toggle:after {
+        border-top-color: #000;
+    }
+    .Navigation-Bar-Menu-List {
+        background: #eee;
+    }
+    .Navigation-Bar-Menu-List .Navigation-CurrencyButton,
+    .Navigation-Bar-Menu-List .Navigation-Button {
+        background: rgba(208, 208, 208, .64);
+    }
+    /* fix SVG resizing issue */
+    .Navigation-Bar-Menu-List svg {
+        min-width: 1em;
+    }
+    .Countdown {
+        color: #000;
+    }
+    .Countdown > .Countdown-Number {
+        color: #fff;
+        background: #000;
+    }
+    /**** STANDINGS ****/
+    .Stubs-Body,
+    .Standings-Division-Header {
+        color: #666;
+    }
+    .Standings-Team:nth-child(2n+1) {
+        background: rgba(225, 225, 225, .64);
+    }
+    .Standings-Team:hover {
+        background: rgba(154, 154, 154, .64);
+    }
+    /* Standings colour picks are best suited for dark */
+    .Standings-Team-Standings {
+        -webkit-filter: brightness(60%);
+        filter: brightness(60%);
+    }
+    /**** SHOPPING/DECREES ****/
+    .Shop-Description,
+    .Offseason-Description {
+        color: #666;
+    }
+    .Shop-Item,
+    .Decrees-Option,
+    .Blessings-Option {
+        background: rgba(210, 210, 210, .64);
+        color: #000;
+    }
+    .Decrees-Option .Decrees-Option-Icon,
+    .Blessings-Option .Blessings-Option-Icon {
+        fill: #000;
+    }
+    .Decrees-Option-Button,
+    .Blessings-Option-Button {
+        background: #000;
+        color: #fff;
+    }
+    .Decrees-Option:hover,
+    .Blessings-Option:hover {
+        color: #222;
+    }
+    .Decrees-Option:hover .Decrees-Option-Icon {
+        fill: #222;
+    }
+    .Decrees-Option.Decrees-Option-Current,
+    .Blessings-Option.Blessings-Option-Current {
+        background: #000;
+        color: #fff;
+        filter: none;
+        -webkit-filter: none;
+    }
+    .Decrees-Option.Decrees-Option-Current .Decrees-Option-Icon {
+        fill: #fff;
+    }
+    .Decrees-Option.Decrees-Option-Current .Decrees-Option-Button,
+    .Blessings-Option.Blessings-Option-Current .Blessings-Option-Button {
+        background: #fff;
+        color: #000;
+    }
+    /**** GAMES DISPLAY ****/
+    .Advertisement-SiteHeader,
+    .Advertisement-SiteHeader-Callout:hover,
+    .DailySchedule-Body {
+        color: #666;
+    }
+    .Advertisement-SiteHeader-Callout {
+        color: #000;
+    }
+    .GameWidget {
+        background: none;
+    }
+    .GameWidget-PlayerStatusIcon {
+        filter: invert(100%);
+    }
+    .GameWidget-Upcoming-Info,
+    .GameWidget-Upcoming-Header,
+    .GameWidget-Upcoming-Bets,
+    .GameWidget-Header-Wrapper,
+    .GameWidget-Header,
+    .GameWidget-Display-Visual,
+    .GameWidget-Log,
+    .GameWidget-Display-Body .GameWidget-Log,
+    .GameWidget-Log-Header {
+        background: rgba(208, 208, 208, .64);
+    }
+    .GameWidget-Upcoming-Label,
+    .GameWidget-Upcoming-Weather {
+        color: #000;
+    }
+    .GameWidget-Upcoming-Favorites-Team,
+    .GameWidget-ScoreName,
+    .GameWidget-WinChance {
+        -webkit-filter: brightness(60%);
+        filter: brightness(60%);
+    }
+    .GameWidget-ScoreRecord {
+        color: #666;
+    }
+    .GameWidget-Status {
+        color: #fff;
+    }
+    .GameWidget-Outs-Label,
+    .GameWidget-PlayerStatusLabel {
+        color: #000;
+    }
+    .GameWidget-Outs-Dots {
+        color: #000;
+    }
+    .GameWidget-Bases svg .st0 {
+        stroke: #000;
+    }
+    .GameWidget-Bases.first #base1,
+    .GameWidget-Bases.second #base2,
+    .GameWidget-Bases.third #base3 {
+        fill: #000;
+    }
+    .Main-Footer-Link {
+        color: #777;
+    }
+    .Main-Footer-Link:hover {
+        color: #000;
+    }
+    .btn.btn-success {
+        border-color: transparent;
+    }
+}

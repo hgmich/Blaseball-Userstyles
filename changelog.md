@@ -64,3 +64,10 @@ Updates to included styles will be listed here.
 ### 0.0.1 (2020/08/08)
 
 * Initial version of the Windows 10 Emoji fix userstyle.
+
+
+## Blaseball Light Mode
+
+### 0.0.1 (2020/08/08)
+
+* Initial version of the Blaseball Light Mode userstyle.
