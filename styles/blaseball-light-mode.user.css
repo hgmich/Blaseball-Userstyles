@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Blaseball Light Mode
 @namespace   holmesmr.github
-@version     0.0.1
+@version     0.0.2
 @author       cepheus (https://github.com/holmesmr)
 @homepageURL  http://holmesmr.github.io/Blaseball-Userstyles/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -11,8 +11,17 @@
     body,
     .Main,
     .Main-Body,
-    .Main-Body-Intro {
+    .Main-Body-Intro,
+    .Header-Logo {
         background: #fff;
+        color: #000;
+    }
+    .About-Ticket,
+    .About-QuoteAuthor {
+        color: #a69309;
+    }
+    .About-Ticket :hover,
+    .About-Ticket:hover {
         color: #000;
     }
     .Navigation,
@@ -28,24 +37,20 @@
         background: rgba(225, 225, 225, .64);
         color: #000
     }
-    .Navigation-Patreon-Inner,
-    .Navigation-Follow-Inner {
+    .Header-Social-Patreon-Inner,
+    .Header-Social-Follow-Inner {
         background: #e0e0e0;
     }
-    .Navigation-Patreon-Icon,
-    .Navigation-Follow-Inner {
+    .Header-Social-Patreon-Icon,
+    .Header-Social-Follow-Inner {
         color: #555;
     }
-    .Navigation-Patreon-Icon:hover,
-    .Navigation-Follow-Inner a:hover {
+    .Header-Social-Patreon-Icon:hover,
+    .Header-Social-Follow-Inner a:hover {
         color: #000;
     }
-    /* Hide errant backslash */
-    .Navigation-Patreon-Inner {
-        color: #e0e0e0;
-    }
     /* Follow container chevron */
-    .Navigation-Follow-Triangle {
+    .Header-Social-Follow-Triangle {
         border-top-color: #e0e0e0;
     }
     .Navigation-CurrencyButton:hover,
@@ -83,6 +88,22 @@
     .Countdown > .Countdown-Number {
         color: #fff;
         background: #000;
+    }
+    .Main-Footer-Link {
+        color: #777;
+    }
+    .Main-Footer-Link:hover {
+        color: #000;
+    }
+    .btn.btn-success {
+        border-color: transparent;
+    }
+    /**** FRONT PAGE ****/
+    .About-Body-Container {
+        background: rgba(225, 225, 225, .64);
+    }
+    .Haitus-Body a {
+        color: #a69309;
     }
     /**** STANDINGS ****/
     .Stubs-Body,
@@ -145,7 +166,8 @@
     /**** GAMES DISPLAY ****/
     .Advertisement-SiteHeader,
     .Advertisement-SiteHeader-Callout:hover,
-    .DailySchedule-Body {
+    .DailySchedule-Body,
+    .GodsDay-Body {
         color: #666;
     }
     .Advertisement-SiteHeader-Callout {
@@ -165,7 +187,10 @@
     .GameWidget-Display-Visual,
     .GameWidget-Log,
     .GameWidget-Display-Body .GameWidget-Log,
-    .GameWidget-Log-Header {
+    .GameWidget-Log-Header,
+    .GameWidget-Outcome,
+    .Recap-Decree-Container,
+    .Recap-Blessing-Container {
         background: rgba(208, 208, 208, .64);
     }
     .GameWidget-Upcoming-Label,
@@ -174,11 +199,14 @@
     }
     .GameWidget-Upcoming-Favorites-Team,
     .GameWidget-ScoreName,
-    .GameWidget-WinChance {
+    .GameWidget-WinChance,
+    .GameWidget-Outcome-Callout {
         -webkit-filter: brightness(60%);
         filter: brightness(60%);
     }
-    .GameWidget-ScoreRecord {
+    .GameWidget-ScoreRecord,
+    .Recap-Decree-Votes,
+    .Recap-Blessing-Votes {
         color: #666;
     }
     .GameWidget-Status {
@@ -199,13 +227,68 @@
     .GameWidget-Bases.third #base3 {
         fill: #000;
     }
-    .Main-Footer-Link {
-        color: #777;
+    .GameWidget-ScoreBet-Bet {
+        background: #adadad;
     }
-    .Main-Footer-Link:hover {
+    .GameWidget-ScoreBet-Triangle {
+        border-left-color: #adadad;
+    }
+    /**** MODALS ****/
+    .Modal-Background {
+        background: rgba(0, 0, 0, 0.6)
+    }
+    .Modal--Generic {
+        border-color: #000;
+        background: #fff;
         color: #000;
     }
-    .btn.btn-success {
-        border-color: transparent;
+    .Modal-Close {
+        color: #000;
+    }
+    .Modal.Auth .Auth-Input {
+        border-color: #000;
+        color: #000;
+    }
+    .Modal.Auth .Auth-Submit,
+    .Modal.Auth .Auth-SocialAuth {
+        background: #000;
+        color: #fff;
+    }
+    .Modal.Auth .Auth-Input::placeholder {
+        color: #000;
+    }
+    #root .Bet,
+    #root .Team-Info {
+        color: #000;
+    }
+    #root .Bet select {
+        background: rgba(208, 208, 208, .64);
+        color: #000;
+    }
+    #root .Bet-Form-Inputs-Amount {
+        background: rgba(208, 208, 208, .64);
+    }
+    #root .Bet-Form-Inputs-Amount input[type="number"] {
+        color: #000;
+    }
+    #root .Bet-Form-Inputs-Amount-MaxBet,
+    #root .Bet-Coin-Wrapper,
+    #root .Team-Subheader {
+        color: #666;
+    }
+    #root .Team-Player-Line {
+        color: #000;
+    }
+    #root .Team-Player-Line:nth-child(2n+1) {
+        background: rgba(225, 225, 225, .64);
+    }
+    #root .Team-Player-Vibe-Neutral {
+        color: #888;
+    }
+    #root .Team-Player-Vibe-Quality {
+        color: #81a767;
+    }
+    #root .Team-Player-Vibe-Excellent {
+        color: #56ad54;
     }
 }
