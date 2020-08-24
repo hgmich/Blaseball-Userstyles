@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        BIG SCREEN Blaseball
 @namespace   holmesmr.github
-@version     0.0.10
+@version     0.0.11
 @author       cepheus (https://github.com/holmesmr)
 @homepageURL  http://holmesmr.github.io/Blaseball-Userstyles/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -33,6 +33,11 @@
     }
     .Main {
         padding: 0;
+    }
+    .Header,
+    .Navigation {
+        padding-left: 20px;
+        padding-right: 20px
     }
     .GameWidget-Log-Content {
         min-height: 95px;

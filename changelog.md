@@ -4,6 +4,10 @@ Updates to included styles will be listed here.
 
 ## BIG SCREEN Blaseball
 
+### 0.0.11 (2020/08/24)
+
+* Pad the header and navigation to make it look less messy.
+
 ### 0.0.10 (2020/08/08)
 
 * Actually add the fix from 0.0.9 into the stylesheet...
