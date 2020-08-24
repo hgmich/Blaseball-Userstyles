@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Blaseball Light Mode
 @namespace   holmesmr.github
-@version     0.0.3
+@version     0.0.4
 @author       cepheus (https://github.com/holmesmr)
 @homepageURL  http://holmesmr.github.io/Blaseball-Userstyles/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -102,8 +102,11 @@
     .About-Body-Container {
         background: rgba(225, 225, 225, .64);
     }
-    .Haitus-Body a {
+    .Hiatus-Body a {
         color: #a69309;
+    }
+    .BigDeal-Icon {
+        color: #000;
     }
     /**** STANDINGS ****/
     .Stubs-Body,
@@ -311,3 +314,4 @@
         color: #56ad54;
     }
 }
+

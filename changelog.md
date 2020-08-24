@@ -76,6 +76,10 @@ Updates to included styles will be listed here.
 
 ## Blaseball Light Mode
 
+### 0.0.4 (2020/08/24)
+
+* Make sure the spinning peanut is visible!
+
 ### 0.0.3 (2020/08/24)
 
 * Add modal style for player stats.
