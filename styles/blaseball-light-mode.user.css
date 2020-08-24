@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Blaseball Light Mode
 @namespace   holmesmr.github
-@version     0.0.2
+@version     0.0.3
 @author       cepheus (https://github.com/holmesmr)
 @homepageURL  http://holmesmr.github.io/Blaseball-Userstyles/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -276,19 +276,38 @@
     #root .Team-Subheader {
         color: #666;
     }
+    #root .Player-Info-Line {
+        color: #000;
+    }
+    #root .Player-Info-Bio,
+    #root .Player-Info-Stats {
+        background: none;
+    }
+    #root .Player-Info-Line:nth-child(2n) {
+        background: none;
+    }
+    #root .Player-Info-Line:nth-child(2n+1) {
+        background: rgba(225, 225, 225, .64);
+    }
+    #root .Player-Info-Items-Box {
+        background: rgba(208, 208, 208, .64);
+    }
     #root .Team-Player-Line {
         color: #000;
     }
     #root .Team-Player-Line:nth-child(2n+1) {
         background: rgba(225, 225, 225, .64);
     }
-    #root .Team-Player-Vibe-Neutral {
+    #root .Team-Player-Vibe-Neutral,
+    #root .Player-Vibe-Neutral {
         color: #888;
     }
-    #root .Team-Player-Vibe-Quality {
+    #root .Team-Player-Vibe-Quality,
+    #root .Player-Vibe-Quality {
         color: #81a767;
     }
-    #root .Team-Player-Vibe-Excellent {
+    #root .Team-Player-Vibe-Excellent,
+    #root .Player-Vibe-Excellent {
         color: #56ad54;
     }
 }

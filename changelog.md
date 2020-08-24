@@ -76,12 +76,16 @@ Updates to included styles will be listed here.
 
 ## Blaseball Light Mode
 
+### 0.0.3 (2020/08/24)
+
+* Add modal style for player stats.
+
 ### 0.0.2 (2020/08/24)
 
-* Add modal styles that were accidently omitted from 0.0.1
+* Add modal styles that were accidently omitted from 0.0.1.
 
 * Improvements and changes for Blaseball Season 4 pre-season
-  (expect more once season starts)
+  (expect more once season starts).
 
 ### 0.0.1 (2020/08/08)
 
