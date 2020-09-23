@@ -102,6 +102,14 @@ There's a [changelog](changelog.html#blaseball-light-mode) for this style.
 
 [Install Style](styles/blaseball-light-mode.user.css)
 
+### Legible hall tables
+
+Makes the tables in the Hall of Flame a little easier to read with a monospace font.
+
+![Comparing the original serif font with the monospace](images/legible-hall-tables.png)
+
+[Install Style](styles/legible-hall-tables.user.css)
+
 ----
 
 A production of Cepheus (@ceph3us#0451) on the [Blaseball Discord](//discord.gg/3uFgJhu).
