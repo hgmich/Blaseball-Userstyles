@@ -4,6 +4,10 @@ Updates to included styles will be listed here.
 
 ## BIG SCREEN Blaseball
 
+### 0.0.12 (2020/10/11)
+
+* Ensure Emoji fix is applied to the teams screen, idol board, elections screen, and player screen
+
 ### 0.0.11 (2020/08/24)
 
 * Pad the header and navigation to make it look less messy.
@@ -64,6 +68,10 @@ Updates to included styles will be listed here.
 
 
 ## Windows 10 Emoji fix
+
+### 0.0.3 (2020/10/11)
+
+* Ensure Emoji fix is applied to the teams screen, idol board, elections screen, and player screen
 
 ### 0.0.2 (2020/08/08)
 
