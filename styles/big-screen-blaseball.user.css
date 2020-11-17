@@ -9,7 +9,9 @@
 
 @-moz-document domain("blaseball.com") {
     .DailySchedule-Countdown + ul,
-    .DailySchedule-Countdown + ul > ul {
+    .DailySchedule-Countdown + ul > ul,
+    .League-Countdown + ul,
+    .League-Countdown + ul > ul {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
