@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        Blaseball Win10 Emoji Fix
 @namespace   holmesmr.github
-@version     0.0.3
+@version     0.0.4
 @author       cepheus (https://github.com/holmesmr)
 @homepageURL  http://holmesmr.github.io/Blaseball-Userstyles/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -9,11 +9,11 @@
 
 @-moz-document domain("blaseball.com") {
     .Standings-Team-Emoji,
-	.Team-Logo,
+    .Team-Logo,
     .Leaderboard-Team-Emoji,
     .Player-Team-Emoji,
     .Recap-Blessing-Team,
-	.GameWidget-ScoreTeamColorBar {
-        color: black;
+    .GameWidget-ScoreTeamColorBar {
+        font-family: "Segoe UI Emoji"
     }
 }
