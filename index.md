@@ -1,8 +1,11 @@
 # Userstyle repository
 
 **All styles should be considered in beta.** More styles may be added over time!
-Please leave suggestions for new styles, or problems with existing styles,
+Please report problems with existing styles
 as a [GitHub issue](https://github.com/holmesmr/Blaseball-Userstyles/issues).
+
+For questions or suggestions for new styles, please use the
+[discussion forum](https://github.com/holmesmr/Blaseball-Userstyles/discussions).
 
 **Note:** As Blaseball changes quite frequently, these styles might occasionally be
 broken by game updates (siestas). Check/file [GitHub issues](https://github.com/holmesmr/Blaseball-Userstyles/issues)
@@ -61,6 +64,9 @@ Includes the [Emoji fix (previously Windows 10 Emoji fix)](#emoji-fix).
 
 There's a [changelog](changelog.html#big-screen-blaseball) for this style.
 
+Please report suggestions or feedback for BIG SCREEN Blaseball in the
+[feedback thread on GitHub](https://github.com/holmesmr/Blaseball-Userstyles/discussions/10).
+
 ![BIG SCREEN Blaseball screenshot](images/big-screen-blaseball.png)
 
 [Install Style](styles/big-screen-blaseball.user.css)
@@ -78,6 +84,9 @@ This is already included in the [BIG SCREEN Blaseball](#big-screen-blaseball) st
 it's only needed if you want to fix this issue without the BIG SCREEN experience.
 
 There's a [changelog](changelog.html#windows-10-emoji-fix) for this style.
+
+Please report suggestions or feedback for the Emoji Fix in the
+[feedback thread on GitHub](https://github.com/holmesmr/Blaseball-Userstyles/discussions/11).
 
 ![Emoji fix screenshot](images/emoji-fix.png)
 
