@@ -4,6 +4,18 @@ Updates to included styles will be listed here.
 
 ## BIG SCREEN Blaseball
 
+### 0.0.15 (2021/03/01)
+
+The long awaited return of the BIG SCREEN, now bligger and bletter.
+
+* Update styles to work with latest version of blaseball.com
+
+* Reduce minimum card width to 300px
+
+* Reduce card gutter to 4px
+
+* Incorporate latest Emoji fix.
+
 ### 0.0.14 (2021/03/01)
 
 * Add emoji fix to favorite team display on account settings and the home page.

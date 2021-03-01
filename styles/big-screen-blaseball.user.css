@@ -1,23 +1,23 @@
 /* ==UserStyle==
 @name        BIG SCREEN Blaseball
 @namespace   holmesmr.github
-@version     0.0.14
+@version     0.0.15
 @author       cepheus (https://github.com/holmesmr)
 @homepageURL  http://holmesmr.github.io/Blaseball-Userstyles/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
 ==/UserStyle== */
 
 @-moz-document domain("blaseball.com") {
-    .DailySchedule-Countdown + ul,
-    .DailySchedule-Countdown + ul > ul {
+    .League-Countdown + ul,
+    .League-Countdown + ul > ul {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
     }
     .GameWidget {
         flex: 0 1 20%;
-        min-width: 350px;
-        padding: 5px;
+        min-width: 300px;
+        padding: 2px;
         margin-bottom: 0;
     }
     .GameWidget-Full-Live,
@@ -25,11 +25,15 @@
         display: block;
     }
     .GameWidget-ScoreBacking {
-        padding: 0;
+        padding: 5px 0;
+    }
+    .GameWidget-ScoreTeamColorBar {
+        margin-left: 0;
     }
     .GameWidget-ScoreLine {
         grid-gap: 0;
         gap: 0;
+        padding-right: 5px;
     }
     .Main {
         padding: 0;
@@ -39,33 +43,34 @@
         padding-left: 20px;
         padding-right: 20px
     }
-    .GameWidget-Log-Content {
-        min-height: 95px;
+    .Widget-Log {
+        min-height: 0;
+    }
+    .Widget-Log-Content {
+        min-height: 115px;
         overflow-y: auto;
     }
-    .GameWidget-Display-Visual,
-    .GameWidget-Upcoming-Info,
-    .GameWidget-Outcome {
-        border-radius: 0;
+    .Widget-Display-Body {
+        padding: 0;
     }
-    .GameWidget-Log,
-    .GameWidget-Upcoming-Bets {
+    .Widget-Log,
+    .Widget-Upcoming-Bets {
         border-top-left-radius: 0;
         border-top-right-radius: 0;
     }
-    .GameWidget-Full-Live .GameWidget-Status {
+    .GameWidget-Full-Live .Widget-Status {
         border-bottom-left-radius: 0;
         border-top-right-radius: 0;
         border-bottom-right-radius: 0;
     }
-    .GameWidget-Full-Upcoming .GameWidget-Status {
+    .GameWidget-Full-Upcoming .Widget-Status {
         border-bottom-left-radius: 0;
     }
-    .GameWidget-StatusBar .WeatherIcon {
+    .Widget-StatusBar .WeatherIcon {
         border-top-left-radius: 0;
         border-bottom-left-radius: 0;
     }
-    .GameWidget-Header-Wrapper {
+    .Widget-Header-Wrapper {
         border-bottom-left-radius: 0;
         border-bottom-right-radius: 0;
     }
@@ -73,20 +78,38 @@
     .Standings-Subleague-Container {
         padding: 0 calc(50% - 512px);
     }
-    .Standings-Team-Emoji, 
-    .GameWidget-ScoreTeamColorBar, 
+    .Standings-Team-Emoji,
+    .GameWidget-ScoreTeamColorBar,
     .Leaderboard-Team-Emoji,
-    .Navigation-FavoriteTeamEmoji, 
-    .Team-Logo, 
+    .Navigation-FavoriteTeamEmoji,
+    .Team-Logo,
     .Player-Team-Emoji,
     .Recap-Blessing-Team,
     .Bulletin-Widget-ScoreTeamColorBar,
-    .Account-Section-Item-Icon {
+    .Account-Section-Item-Icon,
+    .Recap-Earlsiesta-Card-Icon,
+    .PlayoffSetup-MatchupTeam-Icon,
+    .Events-List-Row.Events-List-Minor,
+    .Reorder-Spread-Card-Icon,
+    .Account-Spread-Card-Icon,
+    .TeamLogo,
+    .Recap-Decree-Content,
+    .BossFightWidget-ScoreTeamColorBar {
         font-family: Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
         color: black;
+    }
+    .Events-List-Row.Events-List-Minor > div {
+        font-family: "Lora", "Courier New", monospace, serif;
+    }
+    .theme-light .Events-List-Row.Events-List-Minor > div {
+        color: #000000;
+    }
+    .theme-dark .Events-List-Row.Events-List-Minor > div {
+        color: #ffffff;
     }
     .Bulletin {
         padding-left: 20px;
         padding-right: 20px;
     }
 }
+
