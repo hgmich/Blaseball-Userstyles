@@ -4,6 +4,10 @@ Updates to included styles will be listed here.
 
 ## BIG SCREEN Blaseball
 
+### 0.0.11 (2021/03/01)
+
+* Pad the header and navigation to make it look less messy.
+
 ### 0.0.11 (2020/08/24)
 
 * Pad the header and navigation to make it look less messy.
@@ -65,6 +69,14 @@ Updates to included styles will be listed here.
 
 ## Windows 10 Emoji fix
 
+### 0.1.0 (2021/03/01)
+
+* Use an improved Emoji fix that displays Windows 10 color emojis 
+  consistently (thanks to [rwiiebe](https://github.com/rwiiebe))
+
+* Apply fix to new areas that weren't covered in the last version
+  (thanks to [fox8091](https://github.com/fox8091))
+
 ### 0.0.2 (2020/08/08)
 
 * Ensure Emoji fix is applied to the scoring screen too.
@@ -73,8 +85,17 @@ Updates to included styles will be listed here.
 
 * Initial version of the Windows 10 Emoji fix userstyle.
 
+## Discontinued styles
 
-## Blaseball Light Mode
+### Blaseball Light Mode
+
+**Discontinued:** Blaseball now includes a light mode!
+Enable it with the _Light mode_ setting, which can be found by clicking
+_Account Settings_ at the bottom of the page on the Blaseball site.
+
+### 0.0.5 (2021/03/01)
+
+* Renamed to indicate that the Light mode style is now discontinued.
 
 ### 0.0.4 (2020/08/24)
 

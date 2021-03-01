@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        BIG SCREEN Blaseball
 @namespace   holmesmr.github
-@version     0.0.11
+@version     0.0.12
 @author       cepheus (https://github.com/holmesmr)
 @homepageURL  http://holmesmr.github.io/Blaseball-Userstyles/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -73,8 +73,14 @@
     .Standings-Subleague-Container {
         padding: 0 calc(50% - 512px);
     }
-    .Standings-Team-Emoji,
-    .GameWidget-ScoreTeamColorBar {
+    .Standings-Team-Emoji, 
+    .GameWidget-ScoreTeamColorBar, 
+    .Leaderboard-Team-Emoji,
+    .Navigation-FavoriteTeamEmoji, 
+    .Team-Logo, 
+    .Player-Team-Emoji,
+    .Recap-Blessing-Team {
+        font-family: Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
         color: black;
     }
 }

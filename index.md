@@ -57,7 +57,7 @@ Attempts to show matches 2 rows of 5.
 
 You may need to lower the zoom on your browser if you have a smaller screen.
 
-Includes the [Windows 10 Emoji fix](#windows-10-emoji-fix).
+Includes the [Emoji fix (previously Windows 10 Emoji fix)](#emoji-fix).
 
 There's a [changelog](changelog.html#big-screen-blaseball) for this style.
 
@@ -65,46 +65,47 @@ There's a [changelog](changelog.html#big-screen-blaseball) for this style.
 
 [Install Style](styles/big-screen-blaseball.user.css)
 
+<a name="emoji-fix"></a>
+<a name="windows-10-emoji-fix"></a>
 
-### Windows 10 Emoji fix
+### Emoji fix (previously Windows 10 Emoji fix)
 
-Makes monochrome emojis used by the Moist Talkers, Spies and Fridays visible
-by making them black (okay, the Spies is not really _more_ visible, but definitely
-more fitting, at least!)
+Ensures the emojis used for team logos are always using the colorised versions where
+appropriate, and uses a generally more visible black for users without full emoji
+support (e.g. Windows 7).
 
-This is already included in the [BIG SCREEN Blaseball](#big-screen-blaseball)
-and [light mode](#blaseball-light-mode) styles, it's only needed if you want to fix
-this issue without the BIG SCREEN experience.
+This is already included in the [BIG SCREEN Blaseball](#big-screen-blaseball) style, 
+it's only needed if you want to fix this issue without the BIG SCREEN experience.
 
 There's a [changelog](changelog.html#windows-10-emoji-fix) for this style.
 
-![Emoji fix screenshot](images/win10-emoji-fix.png)
+![Emoji fix screenshot](images/emoji-fix.png)
 
 [Install Style](styles/win10-emoji-fix.user.css)
 
+### Additional thanks
 
-### Blaseball light mode
+Thanks to [rwiiebe](https://github.com/rwiiebe) for suggesting an improved fix for
+emoji display.
 
-Just because the players live under the constant threat of the solar eclipse,
-doesn't mean you have to! A light mode for the few of us who want it. Fully compatible
-and tested with the [BIG SCREEN Blaseball](#big-screen-blaseball) style for
-big, light goodness.
+Thanks to [fox8091](https://github.com/fox8091) for pointing out areas where the
+emoji fix needed updating.
 
-Includes the [Windows 10 Emoji fix](#windows-10-emoji-fix).
+## Discontinued styles
 
-There's a [changelog](changelog.html#blaseball-light-mode) for this style.
+Some styles have been made redundant by fixes or improvements made by the Blaseball
+team, but will be noted here so users know they're officially no longer supported.
 
-![Standings screenshot in light mode](images/blaseball-light-mode/standings.png)
+* [Blaseball light mode](discontinued.html#blaseball-light-mode)
 
-![Live scores in light mode](images/blaseball-light-mode/live-scores.png)
-
-![Light mode combined with BIG SCREEN Blaseball](images/blaseball-light-mode/big-live-scores.png)
-
-[Install Style](styles/blaseball-light-mode.user.css)
+  * Blaseball now includes it's own light mode! Enable it with the _Light mode_ setting,
+    which can be found by clicking _Account Settings_ at the bottom of the page on
+    the Blaseball site.
 
 ----
 
 A production of Cepheus (@ceph3us#0451) on the [Blaseball Discord](//discord.gg/3uFgJhu).
+Other contibutors have been noted as appropriate.
 
 Go Moist Talkers!
 
