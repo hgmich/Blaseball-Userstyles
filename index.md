@@ -60,7 +60,9 @@ Attempts to show matches 2 rows of 5.
 
 You may need to lower the zoom on your browser if you have a smaller screen.
 
-Includes the [Emoji fix (previously Windows 10 Emoji fix)](#emoji-fix).
+Note that as of version 0.0.16, BIG SCREEN Blaseball no longer includes the 
+[Emoji fix (previously Windows 10 Emoji fix)](#emoji-fix). Please install the
+Emoji fix separately if you wish to continue using it.
 
 There's a [changelog](changelog.html#big-screen-blaseball) for this style.
 

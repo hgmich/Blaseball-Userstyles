@@ -4,6 +4,12 @@ Updates to included styles will be listed here.
 
 ## BIG SCREEN Blaseball
 
+### 0.0.16 (2021/03/01)
+
+* Per request from many ORB lovers, the Emoji Fix is now removed from
+  BIG SCREEN Blaseball. You will need to install and update it separately
+  going forward.
+
 ### 0.0.15 (2021/03/01)
 
 The long awaited return of the BIG SCREEN, now bligger and bletter.
