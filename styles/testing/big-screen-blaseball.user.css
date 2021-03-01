@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        BIG SCREEN Blaseball (TEST VER)
 @namespace   holmesmr.github
-@version     0.0.15-pre2
+@version     0.0.15-pre3
 @author       cepheus (https://github.com/holmesmr)
 @homepageURL  http://holmesmr.github.io/Blaseball-Userstyles/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -24,12 +24,16 @@
     .GameWidget-Full-Upcoming {
         display: block;
     }
-    .Widget-ScoreBacking {
+    .GameWidget-ScoreBacking {
         padding: 5px 0;
     }
-    .Widget-ScoreLine {
+    .GameWidget-ScoreTeamColorBar {
+        margin-left: 0;
+    }
+    .GameWidget-ScoreLine {
         grid-gap: 0;
         gap: 0;
+        padding-right: 5px;
     }
     .Main {
         padding: 0;
