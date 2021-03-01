@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: BIG SCREEN Blaseball - Feedback and Suggestions
+    url: https://github.com/holmesmr/Blaseball-Userstyles/discussions/10
+    about: Please post your suggestions, improvements and general feedback about BIG SCREEN Blaseball here.
+  - name: Emoji Fix - Feedback and Suggestions
+    url: https://github.com/holmesmr/Blaseball-Userstyles/discussions/11
+    about: Please post your suggestions, improvements and general feedback about the Emoji Fix here.
+  - name: Blaseball Userstyles discussions
+    url: https://github.com/holmesmr/Blaseball-Userstyles/discussions
+    about: Please suggest new ideas for userstyles or the project in general here.
