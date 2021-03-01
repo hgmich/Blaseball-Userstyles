@@ -77,6 +77,10 @@ Updates to included styles will be listed here.
 
 ## Windows 10 Emoji fix
 
+### 0.1.2 (2021/03/01)
+
+* Add emoji fix to new places, including **forbidden knowledge**.
+
 ### 0.1.1 (2021/03/01)
 
 * Add emoji fix to favorite team display on account settings and the home page.
