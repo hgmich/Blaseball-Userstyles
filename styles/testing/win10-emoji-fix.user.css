@@ -1,0 +1,40 @@
+/* ==UserStyle==
+@name        Blaseball Emoji Fix (TEST VER)
+@namespace   holmesmr.github
+@version     0.1.2pre1
+@author       cepheus (https://github.com/holmesmr)
+@homepageURL  http://holmesmr.github.io/Blaseball-Userstyles/
+@license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
+==/UserStyle== */
+
+@-moz-document domain("blaseball.com") {
+    .Standings-Team-Emoji,
+    .GameWidget-ScoreTeamColorBar,
+    .Leaderboard-Team-Emoji,
+    .Navigation-FavoriteTeamEmoji,
+    .Team-Logo,
+    .Player-Team-Emoji,
+    .Recap-Blessing-Team,
+    .Bulletin-Widget-ScoreTeamColorBar,
+    .Account-Section-Item-Icon,
+    .Recap-Earlsiesta-Card-Icon,
+    .PlayoffSetup-MatchupTeam-Icon,
+    .Events-List-Row.Events-List-Minor,
+    .Reorder-Spread-Card-Icon,
+    .Account-Spread-Card-Icon,
+    .TeamLogo,
+    .Recap-Decree-Content,
+    .BossFightWidget-ScoreTeamColorBar {
+        font-family: Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+        color: black;
+    }
+    .Events-List-Row.Events-List-Minor > div {
+        font-family: "Lora", "Courier New", monospace, serif;
+    }
+    .theme-light .Events-List-Row.Events-List-Minor > div {
+        color: #000000;
+    }
+    .theme-dark .Events-List-Row.Events-List-Minor > div {
+        color: #ffffff;
+    }
+}
