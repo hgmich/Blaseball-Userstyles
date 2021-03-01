@@ -4,9 +4,13 @@ Updates to included styles will be listed here.
 
 ## BIG SCREEN Blaseball
 
-### 0.0.11 (2021/03/01)
+### 0.0.13 (2021/03/01)
 
-* Pad the header and navigation to make it look less messy.
+* Pad the sides of the Bulletin page.
+
+### 0.0.12 (2021/03/01)
+
+* Add the updated Emoji fix.
 
 ### 0.0.11 (2020/08/24)
 
