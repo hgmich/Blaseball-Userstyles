@@ -4,6 +4,10 @@ Updates to included styles will be listed here.
 
 ## BIG SCREEN Blaseball
 
+### 0.0.14 (2021/03/01)
+
+* Add emoji fix to favorite team display on account settings and the home page.
+
 ### 0.0.13 (2021/03/01)
 
 * Pad the sides of the Bulletin page.
@@ -72,6 +76,10 @@ Updates to included styles will be listed here.
 
 
 ## Windows 10 Emoji fix
+
+### 0.1.1 (2021/03/01)
+
+* Add emoji fix to favorite team display on account settings and the home page.
 
 ### 0.1.0 (2021/03/01)
 
