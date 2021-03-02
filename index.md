@@ -73,6 +73,11 @@ Please report suggestions or feedback for BIG SCREEN Blaseball in the
 
 [Install Style](styles/big-screen-blaseball.user.css)
 
+### Additional contributors
+
+* Thanks to [BobbySig](https://github.com/BobbySig) for contributing fixes to left over
+  rounded borders and improving row layouts.
+
 <a name="emoji-fix"></a>
 <a name="windows-10-emoji-fix"></a>
 
@@ -94,7 +99,7 @@ Please report suggestions or feedback for the Emoji Fix in the
 
 [Install Style](styles/win10-emoji-fix.user.css)
 
-### Additional thanks
+### Additional contributors
 
 Thanks to [rwiiebe](https://github.com/rwiiebe) for suggesting an improved fix for
 emoji display.

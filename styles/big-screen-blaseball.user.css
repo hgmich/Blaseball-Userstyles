@@ -1,10 +1,10 @@
 /* ==UserStyle==
-@name        BIG SCREEN Blaseball [No longer includes Emoji Fix]
-@namespace   holmesmr.github
-@version     0.0.16
+@name         BIG SCREEN Blaseball [No longer includes Emoji Fix]
+@namespace    holmesmr.github
+@version      0.0.17
 @author       cepheus (https://github.com/holmesmr)
 @homepageURL  http://holmesmr.github.io/Blaseball-Userstyles/
-@license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
+@license      Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
 ==/UserStyle== */
 
 @-moz-document domain("blaseball.com") {
@@ -19,6 +19,23 @@
         min-width: 300px;
         padding: 2px;
         margin-bottom: 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .GameWidget > :nth-last-child(2) {
+        flex-grow: 1;
+    }
+    .GameWidget > *:first-child {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .GameWidget > *:not(:first-child):not(:last-child) {
+        border-radius: 0;
+    }
+    .GameWidget > *:last-child {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
     }
     .GameWidget-Full-Live,
     .GameWidget-Full-Upcoming {
@@ -81,6 +98,30 @@
     .Bulletin {
         padding-left: 20px;
         padding-right: 20px;
+    }
+    /* Reduce vertical space used by outcome text */
+    .GameWidget-Outcome {
+        min-height: 140px;
+        justify-content: flex-start;
+    }
+    .GameWidget-Outcome-Blurb {
+        padding: 5px 0;
+    }
+    .GameWidget-Outcome + .Widget-Log .Widget-Log-Content {
+        /* needed to prevent the log counter being clipped */
+        min-height: 20px;
+    }
+    /* Styles that only apply to the wider layout. */
+    @media(min-width: 1081px) {
+        .GameWidget > :nth-last-child(2) {
+            flex-grow: 0;
+        }
+        .GameWidget > :last-child {
+            flex-grow: 1;
+        }
+        .GameWidget-Upcoming-BetButtons {
+            margin-bottom: 10px;
+        }
     }
 }
 

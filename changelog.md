@@ -4,6 +4,23 @@ Updates to included styles will be listed here.
 
 ## BIG SCREEN Blaseball
 
+### 0.0.17 (2021/03/02)
+
+Thanks to [BobbySig](https://github.com/BobbySig) for contributing fixes to left over
+rounded borders and improving row layouts in this update.
+
+* Fix border radius being left on the .GameWidget component.
+
+* Make cards display to the same height in their row where possible.
+
+* Reduce space wasting in the post-match blurb:
+
+  * Collapse the game log after matches finish.
+
+  * Top align post-match blurb entries instead of distibuting space.
+
+  * Add minimum height to blurb entries display.
+
 ### 0.0.16 (2021/03/01)
 
 * Per request from many ORB lovers, the Emoji Fix is now removed from
