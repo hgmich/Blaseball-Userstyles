@@ -1,7 +1,7 @@
 /* ==UserStyle==
 @name        BIG SCREEN Blaseball (TEST VER)
 @namespace   holmesmr.github
-@version     0.0.17-pre
+@version     0.0.17-pre2
 @author       cepheus (https://github.com/holmesmr)
 @homepageURL  http://holmesmr.github.io/Blaseball-Userstyles/
 @license     Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -99,7 +99,18 @@
         padding-left: 20px;
         padding-right: 20px;
     }
-
+    /* Reduce vertical space used by outcome text */
+    .GameWidget-Outcome {
+        min-height: 140px;
+        justify-content: flex-start;
+    }
+    .GameWidget-Outcome-Blurb {
+        padding: 5px 0;
+    }
+    .GameWidget-Outcome + .Widget-Log .Widget-Log-Content {
+        /* needed to prevent the log counter being clipped */
+        min-height: 20px;
+    }
     /* Styles that only apply to the wider layout. */
     @media(min-width: 1081px) {
         .GameWidget > :nth-last-child(2) {
@@ -113,3 +124,4 @@
         }
     }
 }
+
