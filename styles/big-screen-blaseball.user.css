@@ -19,6 +19,13 @@
         min-width: 300px;
         padding: 2px;
         margin-bottom: 0;
+
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+    .GameWidget > :nth-last-child(2) {
+        flex-grow: 1;
     }
     .GameWidget > *:first-child {
         border-bottom-left-radius: 0;
@@ -93,5 +100,17 @@
         padding-left: 20px;
         padding-right: 20px;
     }
-}
 
+    /* Styles that only apply to the wider layout. */
+    @media(min-width: 1081px) {
+        .GameWidget > :nth-last-child(2) {
+            flex-grow: 0;
+        }
+        .GameWidget > :last-child {
+            flex-grow: 1;
+        }
+        .GameWidget-Upcoming-BetButtons {
+            margin-bottom: 10px;
+        }
+    }
+}
