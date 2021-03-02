@@ -28,6 +28,9 @@
         font-family: Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
         color: black;
     }
+    .Widget-PlayerLineName {
+        font-family: "Open Sans", "Helvetica Neue", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    }
     .Events-List-Row.Events-List-Minor > div {
         font-family: "Lora", "Courier New", monospace, serif;
     }
