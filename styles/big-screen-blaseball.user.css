@@ -20,6 +20,17 @@
         padding: 2px;
         margin-bottom: 0;
     }
+    .GameWidget > *:first-child {
+        border-bottom-left-radius: 0;
+        border-bottom-right-radius: 0;
+    }
+    .GameWidget > *:not(:first-child):not(:last-child) {
+        border-radius: 0;
+    }
+    .GameWidget > *:last-child {
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
     .GameWidget-Full-Live,
     .GameWidget-Full-Upcoming {
         display: block;
