@@ -4,7 +4,7 @@
 @version      0.1.2pre1
 @author       cepheus (https://github.com/holmesmr)
 @homepageURL  http://holmesmr.github.io/Blaseball-Userstyles/
-@license      Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
+@license      Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
 ==/UserStyle== */
 
 @-moz-document domain("blaseball.com") {
@@ -24,7 +24,8 @@
     .Account-Spread-Card-Icon,
     .TeamLogo,
     .Recap-Decree-Content,
-    .BossFightWidget-ScoreTeamColorBar {
+    .BossFightWidget-ScoreTeamColorBar,
+    .Widget-PlayerLineName {
         font-family: Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
         color: black;
     }
