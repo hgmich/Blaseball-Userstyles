@@ -39,7 +39,7 @@
     }
     .GameWidget-Full-Live,
     .GameWidget-Full-Upcoming {
-        display: block;
+        display: flex;
     }
     .GameWidget-ScoreBacking {
         padding: 5px 0;
