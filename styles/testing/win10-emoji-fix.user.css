@@ -31,10 +31,10 @@
     .Events-List-Row.Events-List-Minor > div {
         font-family: "Lora", "Courier New", monospace, serif;
     }
-    .theme-light .Events-List-Row.Events-List-Minor > div {
+    .theme-light .Events-List-Row.Events-List-Minor > span {
         color: #000000;
     }
-    .theme-dark .Events-List-Row.Events-List-Minor > div {
+    .theme-dark .Events-List-Row.Events-List-Minor > span {
         color: #ffffff;
     }
 }
