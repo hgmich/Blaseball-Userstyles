@@ -123,5 +123,12 @@
             margin-bottom: 10px;
         }
     }
+    /* Adjustments for MAXIMUM BLASEBALL */
+	.theme-dark .Widget-Display-Visual-Max {
+		padding-top: 26px;
+	}
+	.Widget-Display-Visual-Max:after {
+		top: 0;
+	}
 }
 
