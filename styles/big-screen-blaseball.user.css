@@ -1,7 +1,7 @@
 /* ==UserStyle==
-@name         BIG SCREEN Blaseball (TEST VER)
+@name         BIG SCREEN Blaseball [No longer includes Emoji Fix]
 @namespace    holmesmr.github
-@version      0.0.17-pre2
+@version      0.0.17
 @author       cepheus (https://github.com/holmesmr)
 @homepageURL  http://holmesmr.github.io/Blaseball-Userstyles/
 @license      Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
@@ -39,7 +39,7 @@
     }
     .GameWidget-Full-Live,
     .GameWidget-Full-Upcoming {
-        display: flex;
+        display: block;
     }
     .GameWidget-ScoreBacking {
         padding: 5px 0;
@@ -123,12 +123,5 @@
             margin-bottom: 10px;
         }
     }
-    /* Adjustments for MAXIMUM BLASEBALL */
-	.theme-dark .Widget-Display-Visual-Max {
-		padding-top: 26px;
-	}
-	.Widget-Display-Visual-Max:after {
-		top: 0;
-	}
 }
 
