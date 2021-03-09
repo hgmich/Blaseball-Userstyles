@@ -37,8 +37,11 @@
     .theme-dark .Events-List-Row.Events-List-Minor > span {
         color: #ffffff;
     }
-    /* Tarot Fix */
 	.Recap-Blessing-Team {
 		color: white;
 	}
+    .Widget-PlayerLineName {
+		font-family: "Open Sans", "Helvetica Neue", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+		color: white;
+    }
 }
