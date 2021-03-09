@@ -37,4 +37,8 @@
     .theme-dark .Events-List-Row.Events-List-Minor > span {
         color: #ffffff;
     }
+    /* Tarot Fix */
+	.Recap-Blessing-Team {
+		color: white;
+	}
 }
