@@ -111,6 +111,13 @@
         /* needed to prevent the log counter being clipped */
         min-height: 20px;
     }
+    /* ILB Header Fix */
+    .Standings-League-Header {
+	    padding-bottom: 26px;
+	}
+	.Standings-League-Header:after {
+	    bottom: 0;
+	}
     /* Styles that only apply to the wider layout. */
     @media(min-width: 1081px) {
         .GameWidget > :nth-last-child(2) {
