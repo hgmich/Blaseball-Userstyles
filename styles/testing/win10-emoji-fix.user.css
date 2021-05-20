@@ -1,10 +1,10 @@
 /* ==UserStyle==
-@name         Blaseball Emoji Fix (TEST VER)
+@name         Blaseball Emoji Fix
 @namespace    holmesmr.github
-@version      0.1.2-pre2
+@version      0.1.2
 @author       cepheus (https://github.com/holmesmr)
 @homepageURL  http://holmesmr.github.io/Blaseball-Userstyles/
-@license      Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)
+@license      Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0) 
 ==/UserStyle== */
 
 @-moz-document domain("blaseball.com") {
@@ -23,18 +23,20 @@
     .Reorder-Spread-Card-Icon,
     .Account-Spread-Card-Icon,
     .TeamLogo,
+    .Recap-Decree-Content,
     .BossFightWidget-ScoreTeamColorBar,
-    .Widget-PlayerLineName {
+    .Widget-PlayerLineName
+    {
         font-family: Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
-        color: black;
     }
-    .Events-List-Row.Events-List-Minor > div {
+    
+    /*Restoring blaseball's distinctive serif font for non-emoji text caught in above selectors*/
+    .Events-List-Row-Group > a,
+    .Events-List-Row-Group,
+    .Events-List-PositiveText,
+    .Events-List-NegativeText,
+    .Events-List-Row.Events-List-Minor * /*selects any descendent of an Event List Minor, as text is inside a span while emoji are not*/
+    { 
         font-family: "Lora", "Courier New", monospace, serif;
-    }
-    .theme-light .Events-List-Row.Events-List-Minor > span {
-        color: #000000;
-    }
-    .theme-dark .Events-List-Row.Events-List-Minor > span {
-        color: #ffffff;
     }
 }
