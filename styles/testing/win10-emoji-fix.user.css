@@ -25,7 +25,11 @@
     .TeamLogo,
     .Recap-Decree-Content,
     .BossFightWidget-ScoreTeamColorBar,
-    .Widget-PlayerLineName
+    .Widget-PlayerLineName,
+    .DepthChart-Team,
+    .DepthChart-Lists-Emoji,
+    .Leaderboard-Team-Emoji,
+    .GiftShop-Gifts-TeamLogo
     {
         font-family: Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
     }
